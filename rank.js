@@ -165,4 +165,4 @@ async function main() {
     console.log(assignedRoles)
 }
 
-client.login('MTE4MjI1ODI4MjczMjE5MTc1NA.GwWjNL.mOVOYkOL3BTQmbbbma-udksgeoCM_JEaQ-nhBU');
+client.login('');
