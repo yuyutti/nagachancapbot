@@ -2,14 +2,14 @@ const fs = require('fs');
 const { Client, Intents, MessageEmbed } = require('discord.js');
 const client = new Client({ intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES] });
 
-const token = 'MTE1OTkwNjc3MDczOTc5Mzk4Mg.G-OHDk.MP2xGJCtRyZj09L5KfKOw0Dlm9ooRWaYoeIvuI'; // Discord Bot のトークン
+const token = ''; // Discord Bot のトークン
 
 const Streamer_roll = ['1159887614711697508', '1160597494942683266']; // 配信者とゲスト配信者のロールID
 const Listener_roll = '1159911738955812866'; // 視聴者のロールID
 const Verified_roll = '1159911194006659173'; // Yunite認証済みのロールID
 
 const listen_ch = '1159910468605972632';
-const command_ch = '1159888053943422987';
+const command_ch = '1182270241296896050';
 
 const PR_list = {
     'PR 1～50': 600,
@@ -50,12 +50,9 @@ const PR_list = {
 const PR_map = new Map(Object.entries(PR_list));
 
 const roles = {
-    'Aグループ': '1174761485059227722',
-    'Bグループ': '1174761486514671638',
-    'Cグループ': '1174761488066555985',
-    'Dグループ': '1174761489219985498',
-    'Eグループ': '1174761490520211556',
-    'Fグループ': '1174761491652677642'
+    'Aグループ': '1182717556834975796',
+    'Bグループ': '1182717596039123004',
+    'Cグループ': '1182717641165643826'
 };
 
 
